@@ -1,0 +1,21 @@
+hr { 
+  color:gray;
+  background-color:gray;
+  height:1px;
+  width:100%;
+} 
+
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+div.linha_vertical{
+	background-color:gray;
+	height:100%;
+	position: absolute;
+	left:31%;
+	top:7%; 
+}
+

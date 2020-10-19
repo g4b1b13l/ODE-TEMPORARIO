@@ -1,0 +1,131 @@
+.app-header {
+	line-height: 30px;
+      
+}
+
+.app-header .app-header--title {
+    	font-size: 35px;
+	text-align:center; 
+	font-weight:bold;
+}
+
+.page{
+	margin:10px;
+}
+
+.divisao_corpo{
+	width:100px;
+	height:100px;
+	float:left;
+
+}
+
+.lado_esquerdo{
+	text-align:justify;
+	left:0;
+	top:0px;
+	width:30%; 
+	height:100%;
+	float:left;
+}
+
+
+.lado_direito{
+    	text-align:justify;
+	left:0;
+	top:0px;
+	width:65%; 
+	height:100%;
+	float:right;
+
+}
+
+
+
+.titulo{
+	font-size:10;
+}
+
+.centralizar{
+	text-align:center;	
+	font-weight:bold;
+}
+
+.margens{margin: 1% 0.5% 0% 0.5%;}
+	
+
+
+.back {
+background-color: #f7f7f7;
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+padding: 120px 50px;
+object-fit: cover;
+object-position: bottom right;
+height: 500px;
+background-image: url("background.png")
+}
+
+
+
+
+.back_2 {
+background-color: #f7f7f7;
+background-position: left;
+background-size: contain;
+background-repeat: no-repeat;
+padding: 100px 50px;
+object-fit: cover;
+object-position: bottom left;
+background-image: url("background_2.png")
+}
+
+.texto_entrada {
+font: :800px;
+}
+@media (max-width: 2880px) {
+  .texto_entrada {
+font: :800px;
+
+  }
+}
+@media (max-width: 1405px) {
+  .texto_entrada {
+font: :800px;
+
+  }
+}
+
+
+@media (max-width: 2880px) {
+  .back {
+    height: 800px;
+    padding: 210px 300px;
+
+  }
+}
+
+  
+@media (max-width: 1405px) {
+  .back {
+    height: 500px;
+    padding: 100px 50px;
+  }
+}
+
+
+@media (max-width: 2880px) {
+  .back2 {
+    height: 500px;
+    padding: 210px 300px;
+
+  }
+}
+
+  
+@media (max-width: 1405px) {
+  .back2 {
+    height: 500px;
+  }
+}
